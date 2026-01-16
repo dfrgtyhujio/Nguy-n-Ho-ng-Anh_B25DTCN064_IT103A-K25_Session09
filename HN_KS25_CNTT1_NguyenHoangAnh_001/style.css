@@ -1,0 +1,246 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff8e1;       
+
+}
+.toptag {
+    background-color: #fff8e1;     
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.tag {
+    display: inline-block;
+    margin: 2px 6px;
+    padding: 3px 10px;
+}
+
+.banner {
+    padding: 50px 5px;
+    background-color: #fff8e1;       
+    text-align: center;
+    border-top: 5px solid #fbc12d;
+    border-bottom: 5px solid #fbc12d;
+    position: relative;
+}
+
+.banner h1 {
+    margin: 0;
+    font-size: 45px;
+}
+
+.banner h1::after {
+    content: "";
+    display: block;
+    width: 170px;
+    height: 5px;
+    margin: 10px auto;
+    background-color: #fbc12d;
+    border-radius: 10px;
+}
+
+.slogan {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.decor {
+    position: absolute;
+    font-size: 30px;
+}
+
+.icon1 {
+    top: 15px;
+    right: 20px;
+    transform: rotate(10deg);
+}
+
+.icon2 {
+    bottom: 10px;
+    right: 60px;
+    transform: rotate(-5deg);
+}
+
+.icon3 {
+    top: 20px;
+    left: 15px;
+    transform: rotate(-10deg);
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #ff6347;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid rgba(255, 255, 255, 0.421);
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    color: #ff6347;
+    background-color: #fff3c4;
+    transform: translateY(-3px) scale(1.05);
+}
+
+.main {
+    width: 960px;
+    max-width: 90%;
+    margin: 25px auto;
+}
+
+.box {
+    margin: 20px 0;
+    padding: 20px 22px;
+    background-color: white;
+    border: 3px solid #fbc12d;
+    border-radius: 10px;
+    box-shadow: 0 5px 0 #fcd46c;
+    position: relative;
+}
+
+.box h2 {
+    margin: 0 0 12px;
+    color: #b71c1c;
+    font-size: 26px;
+}
+
+.card {
+    margin-bottom: 50px;
+    padding: 12px 15px;
+    color: #3e2723;
+    background-color: #fff3c4;
+    border-left: 8px solid #2e7d32;
+    border-radius: 10px;
+}
+
+.flo {
+    font-size: 25px;
+    position: absolute;
+    bottom: 90px;
+    left: 10px;
+}
+
+.table {
+    width: 100%;
+    background-color: white;
+    border-collapse: collapse;
+}
+
+.table thead {
+    background-color: #d32f2f;
+    color: #fff8e1;
+}
+
+.table th, .table td {
+    padding: 10px;
+    border: 1px solid #fbc12d;
+    text-align: left;
+    vertical-align: top;
+}
+
+.table tbody tr {
+    transition: 0.3s;
+}
+
+.table tbody tr:hover {
+    background-color: #fff3c4;
+}
+
+.text {
+    color: #5d4037;
+}
+
+.wish {
+    width: 500px;
+}
+
+.wish label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #4e342e;
+}
+
+.attent {
+    color: #d32f2f;
+}
+
+.wish input, .wish textarea {
+    width: 100%;
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #fffbf0;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.wish input:focus, .wish textarea:focus {
+    border-color: #2e7d32;
+    background-color: white;
+    outline: none;
+}
+
+.radio {
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #fff3c4;
+    border: 2px dashed #de3232;
+    border-radius: 10px;
+}
+
+.submit {
+    margin-top: 15px;
+    padding: 11px 15px;
+    background-color: #ff6347;
+    color: #fbf5dc;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.submit:hover {
+    background-color: #b71c1c;
+    transform: translateY(-3px) scale(1.05);
+}
+
+.contact {
+    position: relative;
+    padding: 15px 50px; 
+    background-color: #fffbf0;
+    border: 2px solid #fbc12d;
+    border-radius: 10px;
+}
+
+.pin {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    font-size: 20px;
+}
+
+.footer {
+    background-color: #4e342e;
+    color: #fff8e1;
+    text-align: center;
+    padding: 18px 12px;
+    border-top: 5px solid #fbc12d;
+}
+
+.footer a {
+    color: #fbc12d;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    color: #fff3c4;
+}
